@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url("../rain.jpg") no-repeat center fixed;
+    background: url("../rain.jpg") repeat center fixed;
     background-size: cover;
     margin: 0;
     font-family: Arial;
@@ -55,13 +55,6 @@ body {
     width: 50%;
 }
 
-/* Clear floats after the columns
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-*/
 
 #quoteDisplay {
     background-color: #999;
@@ -72,6 +65,15 @@ body {
     margin: 25px;
     color: white;
     text-align: center;
+}
+
+.author {
+  color: red;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 12px auto;
+
 }
 
 .button {
@@ -107,16 +109,7 @@ body {
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .column.side, .column.middle {
         width: 100%;
     }
-}
-.author {
-  color: red;
-  display: block;
-  width: 100%;
-  text-align: center;
-  margin: 12px auto;
-
-}
