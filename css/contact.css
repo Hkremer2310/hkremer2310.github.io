@@ -5,7 +5,7 @@
 body {
     background: url("../rain.jpg") no-repeat center fixed;
     background-size: cover;
-    margin: 0;
+    margin-bottom: 0;
     font-family: Arial;
 }
 
