@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url("../rain.jpg") repeat center fixed;
+    background: url("../rain.jpg") no-repeat center fixed;
     background-size: cover;
     margin: 0;
     font-family: Arial;
@@ -12,7 +12,8 @@ body {
 /* Style the header */
 .header {
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 10px;
+    width: 100%;
     text-align: center;
 }
 
@@ -58,7 +59,7 @@ body {
 
 #quoteDisplay {
     background-color: #999;
-    width: 400px;
+    width: auto;
     border: 25px solid #427876;
     border-radius: 25px;
     padding: 25px;
