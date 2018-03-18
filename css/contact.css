@@ -39,6 +39,7 @@ body {
     color: black;
 }
 
+/* form input  */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -50,6 +51,7 @@ input[type=text], select, textarea {
     resize: vertical;
 }
 
+/* form submit button  */
 input[type=submit] {
     background-color: #427876;
     color: white;
@@ -59,31 +61,35 @@ input[type=submit] {
     cursor: pointer;
 }
 
+/* form hover on button */
 input[type=submit]:hover {
     background-color: lightblue;
 }
 
-.container {
+/* .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-}
+    margin: auto;
+    width: 100%;
+} */
  /* Create three unequal columns that floats next to each other */
-.column {
+/* .column {
     float: left;
     padding: 10px;
 }
 
- /* Left and right column */
-.column.side {
-    width: 25%;
+ /* Left and right column  */
+/* .column.side {
+    width: 45%;
     color: white;
-}
+} */
 
-/* Middle column */
+/* Middle column
+
 .column.middle {
-    width: 50%;
-}
+    width: 10%;
+} */
 
 #quoteDisplay {
     background-color: #999;
@@ -91,7 +97,7 @@ input[type=submit]:hover {
     border: 25px solid #427876;
     border-radius: 25px;
     padding: 25px;
-    margin: 25px;
+    margin: auto;
     text-align: center;
 }
 
