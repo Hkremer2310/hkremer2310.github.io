@@ -97,7 +97,7 @@ input[type=submit]:hover {
     border: 25px solid #427876;
     border-radius: 25px;
     padding: 25px;
-    margin: auto;
+    margin: 25px auto;
     text-align: center;
 }
 
