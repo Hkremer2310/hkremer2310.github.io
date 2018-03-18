@@ -87,7 +87,7 @@ input[type=submit]:hover {
 
 #quoteDisplay {
     background-color: #999;
-    width: 400px;
+    width: 375px;
     border: 25px solid #427876;
     border-radius: 25px;
     padding: 25px;
@@ -107,7 +107,7 @@ input[type=submit]:hover {
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 500px) {
-    .column.side, .column.middle {
+    .column.middle {
         width: 100%;
     }
 }
