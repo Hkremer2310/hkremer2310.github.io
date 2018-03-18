@@ -59,19 +59,23 @@ body {
 #quoteDisplay {
     background-color: #999;
     width: auto;
+    min-height: 225px;
     border: 25px solid #427876;
     border-radius: 25px;
     padding: 25px;
     margin: 25px;
     color: white;
-    text-align: center;
 }
 
 .profile {
   border: 4px solid black;
   border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* styling for the authors in the quotes in the js file */
 .author {
   color: black;
   display: block;
@@ -96,7 +100,9 @@ body {
   box-shadow: 0 9px #999;
 }
 
-.button:hover {background-color: lightblue}
+.button:hover {
+  background-color: lightblue;
+}
 
 .button:active {
   box-shadow: 0 5px gray;

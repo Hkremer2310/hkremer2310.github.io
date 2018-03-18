@@ -1,5 +1,7 @@
 var quotes = [
 
+  // Quotes with authors
+
         "Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the universe trying to build bigger and better idiots. So far, the universe is winning. <span class='author'>	-- Rick Cook </span>",
 
         "Lisp isn't a language, it's a building material. <span class='author'> -- Alan Kay </span>",
@@ -86,6 +88,7 @@ var quotes = [
 
         "Computer language design is just like a stroll in the park. Jurassic Park, that is."
 ]
+// random number generator to pull quotes to quoteDisplay
 
 function newQuote() {
 var randomNumber = Math.floor(Math.random() * (quotes.length));
