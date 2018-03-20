@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url("../rain.jpg") no-repeat center fixed;
+    background: url("../img/rain.jpg") no-repeat center fixed;
     background-size: cover;
     margin: 0;
     font-family: Arial;
@@ -66,30 +66,7 @@ input[type=submit]:hover {
     background-color: lightblue;
 }
 
-/* .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    margin: auto;
-    width: 100%;
-} */
- /* Create three unequal columns that floats next to each other */
-/* .column {
-    float: left;
-    padding: 10px;
-}
 
- /* Left and right column  */
-/* .column.side {
-    width: 45%;
-    color: white;
-} */
-
-/* Middle column
-
-.column.middle {
-    width: 10%;
-} */
 
 #quoteDisplay {
     background-color: #999;

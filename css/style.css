@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url("../rain.jpg") no-repeat center fixed;
+    background: url("../img/rain.jpg") no-repeat center fixed;
     background-size: cover;
     margin: 0;
     font-family: Arial;
